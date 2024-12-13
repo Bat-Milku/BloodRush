@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Move the player
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + moveSpeed * Time.fixedDeltaTime * movement);
     }
 
     void RotatePlayerWithMouse()

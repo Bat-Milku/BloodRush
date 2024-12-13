@@ -7,9 +7,9 @@ public class PlayerShooting : MonoBehaviour
 
     public float bulletSpeed = 10f;
     public float bulletLifeTime = 5f;
-    public float stationaryBulletSpeed = 2f;
+    public float stationaryBulletSpeed = 5f;
 
-    private float timeBetweenShots = 0.2f;
+    private float timeBetweenShots = 0.1f;
     private float shotTimer = 0f;
 
     void Update()

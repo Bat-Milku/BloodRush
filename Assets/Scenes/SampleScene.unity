@@ -307,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 410291961}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.73115325, y: -0.5843384, z: 0.054310914}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -662,9 +662,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1131100867274065166, guid: b4038eadeaeb68c46ae52adaacff92bd, type: 3}
   gunBarrelTransform: {fileID: 432586609}
-  bulletSpeed: 10
+  bulletSpeed: 9
   bulletLifeTime: 5
-  stationaryBulletSpeed: 2
+  stationaryBulletSpeed: 7
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
