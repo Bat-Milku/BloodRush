@@ -8,7 +8,7 @@ public class CrosshairController : MonoBehaviour
     void Start()
     {
         // Set the crosshair hotspot to the center of the texture
-        crosshairHotspot = new Vector2(crosshairTexture.width / 2, crosshairTexture.height / 2);
+        crosshairHotspot = new Vector2((float)(crosshairTexture.width / 1.3), (float)(crosshairTexture.height / 1.3));
 
         // Set the custom crosshair
         Cursor.SetCursor(crosshairTexture, crosshairHotspot, CursorMode.Auto);
